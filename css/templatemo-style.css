@@ -33,6 +33,23 @@ a:hover {
   text-decoration: none;
 }
 
+.header{
+  display: flex;
+  justify-content: space-evenly;
+  flex-basis: 50%;
+}
+
+/* .header-text{
+  margin-top: 20%;
+  margin-left: 40px;
+  width: 50%;
+} */
+
+.header-logo{
+  margin-right: 100px;
+  /* margin-top: 8%; */
+} 
+
 .tm-bg-white-alpha {
   background-color: rgba(255, 255, 255, 0.5);
 }
@@ -84,7 +101,8 @@ p {
 }
 
 .tm-p-1-section-1 {
-  margin-bottom: 80px;
+  margin-top: 20%;
+  margin-bottom: 15%;
 }
 
 #our_place {
@@ -164,16 +182,16 @@ p {
   max-width: 500px;
   margin-left: auto;
   margin-right: auto;
-  border-bottom: 1px solid #99ccff;
-  display: flex;
+  /* border-bottom: 1px solid #99ccff; */
+  /* display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: center; */
 }
 
 .tm-site-name-container-inner {
-  display: inline-block;
+  /* display: inline-block;
   margin-left: auto;
-  margin-right: auto;
+  margin-right: auto; */
 }
 
 .tm-site-name {
@@ -187,7 +205,7 @@ p {
 }
 
 .tm-section-text-container {
-  padding: 0 50px;
+  /* padding: 0 40px; */
 }
 
 .tm-section-text-container-2 {
@@ -740,7 +758,7 @@ hr {
     margin-top: 0;
   }
 
-  #intro,
+  #logo,
   #section_4,
   #contact {
     background-color: #99ccff;
@@ -776,7 +794,7 @@ hr {
   }
 
   .tm-section-text-container {
-    padding: 50px;
+    padding: 40px;
   }
 
   .tm-section-text-container-4 {
@@ -915,10 +933,17 @@ hr {
 }
 
 @media (max-width: 480px) {
+  .header{
+    display: block;
+  }
+  
   h1 {
     font-size: 2rem;
   }
-
+  .logo1{
+    width: 50%;
+    margin-right: auto;
+  }
   .tm-site-name-container {
     padding-left: 15%;
     padding-right: 10%;
